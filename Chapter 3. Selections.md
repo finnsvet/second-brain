@@ -120,6 +120,7 @@ Logical operators, also known as boolean operators operate on boolean values to 
 | false | true  | false   | (age > 34) ^(weight ≥ 140) is true, because (age > 34) but (weight ≥ 140) is true.          |
 | true  | false | true    |                                                                                             |
 | true  | true  | false   |                                                                                             |
+
 The trick i’ve seen to or exclusive here is that ONLY one of the boolean expression/element being operated on by the ^operator should be true, for the whole expression to be true, any other case results to false.
 
 I guess that’s why its called exclusive or, because the expressions being operated are, logically, mutually exclusive so the operation can only be truthy if one of the elements are absent (in truth—falsey).
@@ -173,4 +174,4 @@ the symbol ? and : appearing together is called a conditional operator also know
 [Operator Precedence](operator_precedence.png)
 
 ## 3.16 Debugging
-Learn how to jdb—java debugger.
+Learn how to use jdb—java debugger.
