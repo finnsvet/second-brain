@@ -7,7 +7,7 @@ The methods this chapter discusses (which belong to the Math class) are:
 1. trigonometric methods
 2. exponent methods
 3. service methods
-Service methods include rounding, min,  max, absolute and random methods. In addiction to methods the Math class provides 2 useful double constants, `PI` and `E`, the base of natural logarithms.
+Service methods include rounding, min,  max, absolute and random methods. In addition to methods the Math class provides 2 useful double constants, `PI` and `E`, the base of natural logarithms.
 ```java
 //usage
 Math.PI;
@@ -16,35 +16,35 @@ Math.E;
 
 ### 4.2.1 Trigonometric Methods in Math class
 
-| Method            | Description                                             |
-| ----------------- | ------------------------------------------------------- |
-| sin(radians)      | returns the trigonometric sine of an angle in radians   |
-| cos(radians)      | returns the trigonometric cos of an angle in radians    |
-| tan(radians)      | returns the trigonometric tan of an angle in radians    |
-| toRadians(degree) | returns the angle in radians for the angles in degrees  |
-| toDegree(radians) | returns the angle in degrees for the angle in radians   |
-| asin(s)           | returns the angle in radians for the inverse of sine    |
-| acos(a)           | returns the angle in radians for the inverse of cosine  |
-| atan(a)           | returns the angle in radians for the inverse of tangent |
+| Method               | Description                                             |
+| -------------------- | ------------------------------------------------------- |
+| `sin(radians)`       | returns the trigonometric sine of an angle in radians   |
+| `cos(radians)`       | returns the trigonometric cos of an angle in radians    |
+| `tan(radians)`       | returns the trigonometric tan of an angle in radians    |
+| `toRadians(degree)`  | returns the angle in radians for the angles in degrees  |
+| `toDegrees(radians)` | returns the angle in degrees for the angle in radians   |
+| `asin(s)`            | returns the angle in radians for the inverse of sine    |
+| `acos(a)`            | returns the angle in radians for the inverse of cosine  |
+| `atan(a)`            | returns the angle in radians for the inverse of tangent |
 
 ### 4.2.2 Exponent Methods in Math class
 
-| Method    | Description                                             |
-| --------- | ------------------------------------------------------- |
-| exp(x)    | returns e raised to power of x, $e^{x}$                 |
-| log(x)    | returns the natural logarithm of x, $ln(x)= log_{e}(x)$ |
-| log10(x)  | returns the base 10 logarithm of x, $log_{10}(x)$       |
-| pow(a, b) | returns a raised to the power of b, $a^{b}$             |
-| sqrt(x)   | returns the square root of x, $\sqrt{x}$  for $x>=0$    |
+| Method      | Description                                             |
+| ----------- | ------------------------------------------------------- |
+| `exp(x)`    | returns e raised to power of x, $e^{x}$                 |
+| `log(x)`    | returns the natural logarithm of x, $ln(x)= log_{e}(x)$ |
+| `log10(x)`  | returns the base 10 logarithm of x, $log_{10}(x)$       |
+| `pow(a, b)` | returns a raised to the power of b, $a^{b}$             |
+| `sqrt(x)?`  | returns the square root of x, $\sqrt{x}$  for $x>=0$    |
 ### 4.2.3 The Rounding Methods
 The math class contains 4 rounding methods
 
-| Method   | Description                                                                                                                |
-| -------- | -------------------------------------------------------------------------------------------------------------------------- |
-| ceil(x)  | x is rounded up to its nearest integer. This integer is returned as a double value.                                        |
-| floor(x) | x is rounded down to its nearest integer. This integer is returned as a double value                                       |
-| rint(x)  | x is rounded to its nearest integer. if x is equally close to the two integers, the even one is returned as a double value |
-| round(x) | returns `(int) Math.floor(x + 0.5)`if x is a float and returns `(long) Math.floor(x + 0.5)` if x is a double.              |
+| Method     | Description                                                                                                                |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------- |
+| `ceil(x)`  | x is rounded up to its nearest integer. This integer is returned as a double value.                                        |
+| `floor(x)` | x is rounded down to its nearest integer. This integer is returned as a double value                                       |
+| `rint(x)`  | x is rounded to its nearest integer. if x is equally close to the two integers, the even one is returned as a double value |
+| `round(x)` | returns `(int) Math.floor(x + 0.5)`if x is a float and returns `(long) Math.floor(x + 0.5)` if x is a double.              |
 
 an example of rounding methods used
 ```java
@@ -135,15 +135,15 @@ All numeric operators can be applied to char operands.
 ### 4.3.4 Comparing and Testing Characters
 Methods in Character class.
 
-| Method              | Description                                                    |
-| ------------------- | -------------------------------------------------------------- |
-| isDigit(ch)         | Returns true if the specified character is a digit             |
-| isLetter(ch)        | Returns true if the specified character is a letter            |
-| isLetterOrDigit(ch) | Returns true is the specified character is a letter or digit   |
-| isLowerCase(ch)     | Returns true if the specified character is a lowercase         |
-| isUpperCase(ch)     | Returns true if the specified character is an uppercase letter |
-| toLowerCase(ch)     | Returns the lowercase of the specified character               |
-| toUpperCase(ch)     | Returns the uppercase of the specified character.              |
+| Method                | Description                                                    |
+| --------------------- | -------------------------------------------------------------- |
+| `isDigit(ch)`         | Returns true if the specified character is a digit             |
+| `isLetter(ch)`        | Returns true if the specified character is a letter            |
+| `isLetterOrDigit(ch)` | Returns true is the specified character is a letter or digit   |
+| `isLowerCase(ch)`     | Returns true if the specified character is a lowercase         |
+| `isUpperCase(ch)`     | Returns true if the specified character is an uppercase letter |
+| `toLowerCase(ch)`     | Returns the lowercase of the specified character               |
+| `toUpperCase(ch)`     | Returns the uppercase of the specified character.              |
 ## 4.4 The String Type
 A string is a sequence of characters.
 ```java
@@ -157,14 +157,14 @@ Here message is a reference variable that reference a string object with content
 
 ### Simple methods for String objects
 
-| Method        | Description                                                           |
-| ------------- | --------------------------------------------------------------------- |
-| length()      | Returns the number of characters in this string                       |
-| charAt(index) | Returns the character at the specified index from the string          |
-| concat(s1)    | Returns a new string that concatenates this string with string s1     |
-| toUpperCase() | Returns a new string with all the letters in uppercase                |
-| toLowerCase() | Returns a new string with all the letters in lowercase                |
-| trim()        | Returns a new string with whitespace characters trimmed on both sides |
+| Method          | Description                                                           |
+| --------------- | --------------------------------------------------------------------- |
+| `length()`      | Returns the number of characters in this string                       |
+| `charAt(index)` | Returns the character at the specified index from the string          |
+| `concat(s1)`    | Returns a new string that concatenates this string with string s1     |
+| `toUpperCase()` | Returns a new string with all the letters in uppercase                |
+| `toLowerCase()` | Returns a new string with all the letters in lowercase                |
+| `trim()`        | Returns a new string with whitespace characters trimmed on both sides |
 
 ### 4.4.a Instance and static methods introduced
 The above methods can only be invoked from a specific string instance thus why they are called `instance methods`.
@@ -229,3 +229,100 @@ String line = input.nextLine();
 ```
 
 ### 4.4.6 Reading a character from the console
+to read a character from console, use the `nextLine()` scanner method then, the `chatAt(index)`String method to read the char at what index you need.
+```java
+Scanner input = new Scanner(System.in);
+String Line = input.nextLine();
+char ch = Line.charAt(0);
+```
+### 4.4.7 Comparing Strings
+
+| Method                    | Description                                                                                                                                |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `equals(s1)`              | returns true if this string is equal to string s1                                                                                          |
+| `equalsIgnoreCase(s1)`    | returns true if this string is equal to string s1; it is case insensitive.                                                                 |
+| `compareTo(s1)`           | returns an integer greater than 0, equal to 0, or less than 0 to indicate whether this string is greater than, equal to , ot less than s1. |
+| `compareToIgnoreCase(s1)` | same as `compareTo()` except that the comparison is case insensitive                                                                       |
+| `startsWith(prefix)`      | returns true if this string starts with the specified prefix                                                                               |
+| `endsWith(suffix)`        | returns true if this string ends with the specified suffix                                                                                 |
+| `contains(s1)`            | returns true is s1 is a substring in this string                                                                                           |
+the `==operator` only tells if two objects are the same (like a String) it does not tell if their contents are the same.
+The comparison of same contents is done via the `equals()`String instance method.
+
+The `compareTo()` methods returns the value 0 if the s1 is equal to s2, a value less than 0 is s1 is lexicographically less than s2 and a value greater than 0 if otherwise. 
+The actual value returned from the `compareTo()` method depends on the offset of the first 2 distinct characters in s1 and s2 form left to right.
+
+### 4.4.8 Obtaining Sub-strings
+This is done via the `substring()` instance method. an example:
+```java
+String message = "Welcome to Java";
+message = message.substring(0, 11) + "Heaven";
+// the string now becomes Welcome to Heaven
+```
+
+| Method                            | Description                                                                                                                    |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `substring(beginIndex)`           | returns the strings substring that begins with the character at the specified beginIndex and extends to the end of the string  |
+| `substring(beginIndex, endIndex)` | returns this strings substring that begins as the specified beginIndex and extends to the character at the index endIndex - 1. |
+if beginIndex > endIndex => a runtime error occurs.
+### 4.4.9 Finding a character of a substring in a string
+
+| Method                       | Description                                                                                                     |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `indexOf(ch)`                | returns the index of the first occurrence of ch in the string. returns -1 if not matched                        |
+| `indexOf(ch, fromIndex)`     | returns the index of the first occurrence of ch after formIndex in the string, returns -1 if not matched        |
+| `indexOf(s)`                 | returns the index of the first occurence of string s in this string. returns -1 if not matched.                 |
+| `indexOf(s, fromIndex)`      | returns the index of the first occurrence of string s in this string after fromIndex. returns -1 f not matched. |
+| `lastIndexOf(ch)`            | returns the index of the last occurrence of ch in the string. returns -1 if not matched.                        |
+| `lastIndexOf(ch, fromIndex)` | returns the index of the last occurrence of ch before fromIndex in this string. returns -1 if not matched.      |
+| `lastIndexOf(s)`             | returns the index of the last occurrence of string s. returns -1 if not matched                                 |
+| `lastIndexOf(s, fromIndex)`  | returns the index of the last occurrence of string s before fromIndex, returns -1 if not matched.               |
+### 4.4.10 Conversion between Strings and Numbers
+to convert a ‘numeric string’ into an `int`, the `Integer.parseInt()` static method is used:
+```java
+String intString = "123";
+int intValue = Integer.parseInt(intString);
+```
+to convert a string to double: `Double.parseDouble()`:
+```java
+String doubleS = "123.45";
+double doubleValue = Double.parseDouble(doubleS);
+```
+if the string is not a ‘numeric string’ => a runtime error will occur.
+```java
+// to convert a number to string flawlessly
+String s = number + "";
+```
+
+## 4.6 Formatting Console Output
+this is done via : `System.out.printf()`. 
+syntax: 
+```java
+System.out.printf(format, item1, item2, ..., itemk);
+```
+where format may consist of substrings and format specifiers.
+a format specifier specifies how an item should be formatted.
+
+a simple format specifier consist of a percent sign(%) followed by a conversion code.
+
+| Format Specifier | Output                                   | Example        |
+| ---------------- | ---------------------------------------- | -------------- |
+| %b               | A boolean value                          | True or false  |
+| %c               | a character                              | ‘a’            |
+| %d               | a decimal integer                        | 300            |
+| %f               | a floating-point number                  | 45.460000      |
+| %e               | a number in standard scientific notation | 4.556000e+01   |
+| %s               | a string                                 | “Java is cool” |
+### Examples of specifying width and precision
+![format](source-files/imgs/format.png)
+
+
+| Example | Output                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| %5c     | Output the character and add four spaces before the character item, because the width is 5                                                                                                                                                                                                                                                                                                                 |
+| %6b     | Output the boolean value and add one space before the false value and two spaces before the true value                                                                                                                                                                                                                                                                                                     |
+| %5d     | Output the integer item with the width 5. if the number of digits in the item is <5, add spaces before the number. if the number of digits in the item is >5, the width is automatically increased                                                                                                                                                                                                         |
+| %10.2f  | Output the floating-point item with width 10 including a decimal point and 2 digits after the point. Thus there are  seven digits allocated before the decimal point and 2 digits after the decimal point. if the number of digits before the decimal point is <7, add spaces before the number. if the number of digits before the decimal point in the item is >7, the width is automatically increased. |
+| %10.2e  | Output the floating point item with width 10 including the decimal point, two digits after the point and the exponent part. if the displayed number in scientific notation has width <10, add spaces before the number.                                                                                                                                                                                    |
+| %12s    | Output a string with width 12 characters. if the string item has fewer than 12 characters, add spaces before using the string. if the string item has more than 12 characters, the width is automatically increased.                                                                                                                                                                                       |
+if an item requires more spaces than the specified width, the width is automatically increased.
