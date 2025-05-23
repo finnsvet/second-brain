@@ -97,6 +97,7 @@ the scope of a variable is the part of the program in which the variable can be 
 * parameters are actually local variables too, the scope of a methods parameter covers the entire method
 * variable declared in the initial action of a for loop has a scope that covers the entire loop
 * however a variable declared inside a for loop has its scope limited in the loop body form its declaration to the end of the block that contains the variable
+
 ![loop variable scope](source-files/imgs/LoopVariableScope.png)
 
 ## 6.11 Method Abstraction and Stepwise Refinement
