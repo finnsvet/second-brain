@@ -226,3 +226,41 @@ The `java.util.Arrays` class contains useful methods for common array operations
 | `java.util.Arrays.fill(array1, start, end, item);`  | Performs the same directives as above but only fills partially, starting from the `start` index and ending, but not including, at the `end` index.                     |
 | `java.util.Arrays.toString(array);`                 | returns String that represent all the element in the array. Quick and simple way to display an array.                                                                  |
 ## 7.13 Command-Line Arguments
+the main method can receive string arguments from the command line. The main method is just like a regular method with a parameter. therefore arguments can be passed into it, like so:
+
+Class TestMain:
+```java
+public class TestMain {
+	public static void main(String[] args) {
+		for (String item : args)
+			System.out.println(item);
+	}
+}
+```
+Class A:
+```java
+public class A {
+	public static void main(String[] args) {
+		String[] states = {"Munich", "Siegen", "Wundarbar"};
+		TestMain.main(states);
+	}
+}
+```
+here we can see that we can pass arguments into the main method of a class from another class just like a normal method.
+
+![Test main call](source-files/imgs/testmain.png)
+
+### 7.13.1 Passing Strings to the main method form the command line
+To achieve this you simply call java followed by the class file and then the arguments to be passed. For example this is how three strings can be passed:
+```bash
+java TestMain arg0 arg1 arg1
+```
+arg0, arg1, arg2 are strings, but they don’t have to be enclosed in double quotes in the command line. The strings are separated by space. Strings containing spaces must be enclosed in quotes though.
+
+if you invoke a program with n arguments, The java interpreter creates an array as follows:
+```java
+args = new String[n];
+```
+then the arguments are then passed into `args` by the java interpreter to invoke `main` method.
+### Note:
+if you run the program with no strings passed, the array created is an empty array with length 0, `args` will reference to this empty array therefore`args` is not `null`, only empty.
