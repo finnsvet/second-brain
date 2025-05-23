@@ -161,4 +161,68 @@ there are three ways to copy arrays:
  `arraycopy` those not allocate memory for the target array, this must be done , before hand, by the programmer.
 
 ## 7.6 Passing Arrays to Methods
-when passing an array to a method, the reference of the array is passed into the method.
+when passing an array to a method, the reference of the array is passed into the method. 
+
+if you want to pass an **anonymous array** without explicitly declaring an array reference variable this can be done thusly:
+```java
+arrayMethod(new int[]{1, 2, 3, 5});
+```
+this argument declaration here creates an anonymous array and passes its reference to the `arraymethod` parameter (which should be an array reference variable).
+### Anonymous array syntax:
+```java
+new elementType[] {value0, value1, ..., valuek};
+```
+
+Java uses _pass-by-value_ to pass arguments to a method:
+* when passing primitive data types the value passed is the value of the type itself
+* in arrays, as spoken of previously, this is not the case, here the value passed is not a duplicate of the array with its contents, rather, the reference of the array is the value passed. Therefore any changes made to the referenced passed array within the method, will persist and reflect itself outside the array. Semantically this is described as _pass-by-sharing_
+
+![array pass into method mechanism](source-files/imgs/arraymethodpass.png)
+
+### Note
+* arrays are objects in java (introduced in chapter 9), the JVM stores objects in an area of memory called the heap, which is used for dynamic memory allocation.
+## 7.7 Returning an array form a method
+when a method returns an array, the reference of the array is returned.
+
+## 7.9 Variable-Length Argument Lists
+a variable number of arguments of the same type can be passed to a method and treated as an array.
+Its syntax is thus:
+```java
+typeName... paramaterName
+```
+to achieve this in a method declaration, as declared above, you specify the type followed by an ellipsis, followed but the name of the list.
+
+In java only one variable-length parameter may be specified in a method, and this parameter must be the last parameter, any regular parameters must precede it.
+
+variable length parameters are treated as arrays in java. Below give a snippet of its possible usages:
+```java
+public static void main(String[] args) {
+	arrayDoSomething(2, 5, 7, 9, 12, 1);
+	arrayDoSomething(new int[] {1, 3, 2 ,9});	
+}
+
+public static void arrayDoSomething(int... numbers) {
+	//
+}
+```
+## 7.10 Searching arrays
+This can be done via searching algorithms or the linear search approach (I have covered this in prior studies.
+
+## 7.11 Sorting arrays
+This is also achieved by some algorithm (which, thankfully i have previously studied, so fuck this)
+
+## 7.12 The Array Class
+The `java.util.Arrays` class contains useful methods for common array operations such as sorting and searching. This class contains various static methods for sorting, searching, comparing arrays, filling array elements and returning string representation of the array. These methods are overloaded for all primitive types.
+
+| some Array class methods with example               | Explanation                                                                                                                                                            |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `java.util.Arrays.sort(array);`                     | Sorts an array                                                                                                                                                         |
+| `java.util.Arrays.sort(array, start, end);`         | Sorts an array partially, starting from the `start` index and ends at but not including the `end`index                                                                 |
+| `java.util.Arrays.parallelSort(array);`             | Similar to `sort` but more efficient if computer has multiple processors                                                                                               |
+| `java.util.Arrays.parallelSort(array, start, end);` | Similar to `sort` but partially and more efficient if computer has multiple processors                                                                                 |
+| `java.util.Arrays.binarySearch(array, 10);`         | Uses binary Search to search for a value, in this case the value is 10. Array must already be sorted in sequence of increasing magnitude for search to work accurately |
+| `java.util.Arrays.equals(array1, array2);`          | Returns a boolean to signify if both arrays are equal or not. `true` if equal, `false` if not.                                                                         |
+| `java.util.Arrays.fill(array, item);`               | Used to fill in all indices of an array with the value of `item`                                                                                                       |
+| `java.util.Arrays.fill(array1, start, end, item);`  | Performs the same directives as above but only fills partially, starting from the `start` index and ending, but not including, at the `end` index.                     |
+| `java.util.Arrays.toString(array);`                 | returns String that represent all the element in the array. Quick and simple way to display an array.                                                                  |
+## 7.13 Command-Line Arguments
