@@ -135,6 +135,7 @@ array1 = array2;
 ```
 does not copy the contents, rather, it merely copies the reference value of array2 to the array reference variable: array1. After this statement both array1 and array2 reference the same array as shown in the below image:
 ![array reference assignment](source-files/imgs/arrayrefcopy.png)
+
 the array previously referenced by array1 is no longer referenced and becomes garbage memory, which will be automatically collected by the Java Virtual Machine; This process is known as _garbage collection_.
 
 in Java you can use assignment to copy primitive data types but not arrays, assignment on arrays will only copy the reference of the array you wish to copy to the array reference variable you are assigning to; making both variables point to the same array in memory, there will be no copy.
