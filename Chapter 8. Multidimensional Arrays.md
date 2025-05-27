@@ -122,4 +122,46 @@ for (int column = 0; column < matrix[0].length; ++column) {
 	+ total);
 }
 ```
-* **Which row has the largest sum**. 
+* **Which row has the largest sum**. This is done thusly:
+```java
+int maxSum = 0;
+int maxRowIndex = 0;
+
+for (int column = 0; column < matrix[0].length; ++column)
+	maxSum += matrix[0][column];
+
+for (int row = 0; row < matrix.length; ++row) {
+	int currentRowSum = 0;
+	for (int column = 0; column < matrix[row].length; ++row)
+		currentRowSum += matrix[row][column];
+
+	if (currentRowSum > maxSum) {
+		maxSum = currentRowSum;
+		maxRowIndex = row;
+	}
+}
+```
+* **Random Shuffling**. This can be done with the following syntax:
+```java
+for (int row = 0; row < matrix.length; ++row) {
+	for (int column = 0; column < matrix[row].length; ++column) {
+		int randRow = (int) (Math.random() * matrix.length);
+		int randCol = (int) (Matj.random() * matrix[row].length);
+
+		int temp = matrix[row][column];
+		matrix[row][column] = matrix[randRow][randCol];
+		matrix[randRow][randCol] = temp;
+	}
+}
+```
+
+## 8.4 Passing Two-Dimensional Arrays to Methods
+When passing a two-dimensional array to a method, the reference of the array is passed to the method.
+A two-dimensional array is passed and returned just the same way a one-dimensional array is.
+
+function header declaration with two-dimensional array parameters. it also returns a two-dimensional array (of type int):
+```java
+public static int[][] do2dArray(int[][] array) {...}
+```
+
+## 8.5 Case Study: Grading a Multiple Choice Test
