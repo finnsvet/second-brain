@@ -165,3 +165,85 @@ public static int[][] do2dArray(int[][] array) {...}
 ```
 
 ## 8.5 Case Study: Grading a Multiple Choice Test
+```java
+public class GradExam{
+	public static void main(String[] args) {
+		char[][] answers = {
+		ar[][] answers = {
+			{'A', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
+			{'D', 'B', 'A', 'B', 'C', 'A', 'E', 'E', 'A', 'D'},
+			{'E', 'D', 'D', 'A', 'C', 'B', 'E', 'E', 'A', 'D'},
+			{'C', 'B', 'A', 'E', 'D', 'C', 'E', 'E', 'A', 'D'},
+			{'A', 'B', 'D', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
+			{'B', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
+			{'B', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
+			{'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'}
+		};
+
+		char[][] key =  {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E',
+		 'A', 'D'};
+
+		for (int student = 0; student < answers.length; ++student) {
+			int score = 0;
+			for (int grade=0; i < answers[grade].length; ++grade)
+				score += key[grade] == answers[student][grade] ? 1 : 0;
+				
+			System.out.println("Student "+ (student+1) + " score is "+
+			score);
+		}
+
+	}
+}
+```
+
+## 8.6 Case Study Finding the Closest pair:
+The problem here is given a set of points in a cartesian plane the closest pair should be found
+
+![picture](source-files/imgs/closepairs.png)
+
+```java
+import java.util.Arrays;
+
+public class FindNearestPoints {
+
+  public static void main(String[] args) {
+    double[][] points = {
+      { -1.0, 3.0 },   { -1.0, -1.0 },
+      { 1.0, 1.0 },    { 2.0, 0.5 },
+      { 2.0, -1.0 },   { 3.0, 3.0 },
+      { 4.0, 2.0 },	   { 4.0, -0.5 },
+    };
+    double closestDist = distance(points[0], points[1]);
+    double[][] closestPoints = new double[2][2];
+    closestPoints[0] = points[0];
+    closestPoints[1] = points[1];
+
+    for (int p1 = 0; p1 < points.length; ++p1) {
+      for (int p2 = p1 + 1; p2 < points.length; ++p2) {
+        double currentDist = distance(points[p1], points[p2]);
+        if (currentDist < closestDist) {
+          closestDist = currentDist;
+          closestPoints[0] = points[p1];
+          closestPoints[1] = points[p2];
+        }
+      }
+    }
+
+    System.out.printf(
+      "The closest points are %s and %s\n",
+      Arrays.toString(closestPoints[0]),
+      Arrays.toString(closestPoints[1])
+    );
+  }
+
+  public static double distance(double[] p1, double[] p2) {
+    return Math.sqrt(
+      Math.pow((p1[0] - p2[0]), 2) + Math.pow((p1[1] - p2[1]), 2)
+    );
+  }
+}
+```
+
+## 8.7 Case Study: Sudoku
+This case study helps determines if a sudoku solution is correct.
+Its implementation can be found here [CheckSudokuSolution.java](source-files/Chapter-08/CheckSudokuSolution.java)
