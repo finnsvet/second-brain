@@ -247,3 +247,11 @@ public class FindNearestPoints {
 ## 8.7 Case Study: Sudoku
 This case study helps determines if a sudoku solution is correct.
 Its implementation can be found here [CheckSudokuSolution.java](source-files/Chapter-08/CheckSudokuSolution.java)
+
+## 8.8 Multidimensional Arrays
+A three dimensional array is an array of 2 dimensional arrays.
+n-dimensional data structures can be represented via n-dimensional arrays.
+```java
+double[][][] x3D = int new[3][2][1];
+double[][][] x4D = int new[4][3][2][1];
+```
