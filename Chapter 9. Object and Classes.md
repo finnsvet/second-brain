@@ -336,4 +336,158 @@ private Math() {
 ```
 
 ## 9.9 Data Field Encapsulation
-making data fields private protects data and makes the class easy to maintain.
+making data fields private protects data and makes the class easy to maintain. using the `private` modifier is known as *data field encapsulation*.
+
+These are reason data should be encapsulated:
+1) to prevent careless tampering of data fields
+2) to prevent classes from being difficult to maintain and being vulnerable to bugs.
+
+in most cases, even private data fields need to be accessed and retrieved or even modified to a new value:
+*  ***Getters or Accessors:*** getters enables clients retrieve the value of a private data field, they are declares as thus:
+```java
+public returnType getPropertyName()
+```
+* ***Setters or Mutators:*** setters enables clients set a new value to a private data field, they are declared as thus:
+```java
+public void setPropertyName( dataType propertyValue )
+```
+
+### listing 9.8 `Circle.java` encapsulated
+
+![encapsulated](source-files/imgs/encapsulated.png)
+
+```java
+public class Circle {
+	private double radius = 1.0;
+	private static int numberOfObjects = 0;
+
+	public Circle() {
+		++numberOfObjects;
+	}
+	public Circle(double value) {
+		radius = value;
+		++numberOfObjects;
+	}
+	public double getRadius() {
+		return radius;
+	}
+	public void setRadius(double value) {
+		radius = (value >= 0) ? value : 0;
+	}
+	public static int getNumberOfObjects() {
+		return numberOfObjects;
+	}
+	public double getArea() {
+		return (Math.PI * Math.pow(radius, 2));
+	}
+}
+```
+
+### Note:
+* To prevent data from being tampered with and to make the class easy to maintain, declare data fields private
+* all data fields should be declared private, and all constrictors and methods should be defined public, unless specified otherwise.
+
+## 9.10 Passing Objects to Methods
+Passing an object to a method is to pass the reference of the object. Objects are passed just like arrays passing an object is actually passing a reference of the object.
+
+Java uses exactly one mode of passing arguments: *pass-by-value*, in the case of objects the values to be passed is the reference to the actual object in memory.
+
+pass-by-value on reference can be described semantically as *pass-by-sharing*.
+
+## 9.11 Array of Objects
+An array can hold objects as well as primitive-type values. For example:
+```java
+Circle[] circleArray = new Cicle[10];
+
+for (int i = 0; i < circleArray; ++i) {
+	circleArray[i] = new Circle();
+}
+```
+### Things to Note:
+* An array of objects is actually an *array of reference variables*
+* when an array of objects is created using the `new` operator, each element in the array is a reference variable with a default value of `null`
+* When working with objects follow the *DCI or DI* rule to prevent referencing `null`objects: DECLARE-CREATE-INITIALIZE or DECLARE-INITIALIZE.
+
+## 9.12 Immutable Objects and Classes
+One can define immutable classes to create immutable objects. The contents of immutable objects cannot be changed.
+
+if a class is immutable, then all its date fields must private and it cannot contain a public setter methods for any data fields, But a class with all private data fields and no mutators is not necessarily immutable, because it could be that an accessor or getter returns the reference of private data field, making the data field prone to modification. an example: 
+```java
+public class Student {
+	private int id;
+	private String name;
+	private java.util.Date dateCreated;
+
+	public Student(int ssn, String nname) {
+		id = ssn;
+		name = nname;
+		dateCreated = new java.util.Date();
+	}
+	public int getId() {
+		return id; 
+		// safe: becuase we are returning a primitive
+		// data type: so it will pass-by-value.
+	}
+	public String getName() {
+		// also safe becuase by default the String
+		// class is immutable.
+		return name;
+	}
+	public java.util.Date getCreatedDate() {
+		return dateCreated;
+		// issue: the Date class is not immuatble
+		// and we just returned a reference to the
+		// dateCreated object, meaning clients have
+		// the liberty of modifying its value.
+	}
+}
+```
+For a class to be immutable, it must meet the following requirements:
+* All data fields must be private
+* There can’t be any mutator methods for the data fields
+* No accessor methods can return a reference to a data-field that is mutable
+### 9.12.1 Further discussion of immutable objects
+read Supplement 111.U
+
+## 9.13 Scope of Variables
+The scope of an instance and static variable is the entire class. regardless of where the variables are declared.
+
+Instance and static variables in a class are referred to as *class variables* or data fields. A variable defined inside a method is referred to as a *local variable*:
+* Scope of class variables: entire class regardless where defined. only exception is when a data field is initialized dependent on another data field, that depended upon data field should be declared before the one depending on him.
+* Scope of local variables: the method they are defined in.
+
+in a situation where a local variable has the same name as class variable what happens is that, in that method, the local variable takes precedence over and the class variable with the same name is hidden.
+
+## 9.14 The  *`this`* Reference
+The keyword this refers to the calling object. it can also be used inside a constructor to invoke another constructor of the same class.
+
+Uses of the `this` keyword:
+* The keyword is used to explicitly distinguish instance variables from local variables.
+* The `this` keyword is needed to reference a data-field hidden by a method or constructor parameter
+* The keyword is used to invoke an overloaded constructor.
+
+### 9.14.1 Using `this` to reference data fields
+Its good practice to use the data field as the parameter name in setter method or a constructor to make the code easy to read. In this case we’ll need a way to actually reference the data field in the setter or constructor, the `this` keyword is uses to reference this:
+```java
+private double radius;
+
+public void setRadius(double radius) {
+	this.radius = radius;
+}
+```
+
+![this setter](source-files/imgs/thissetter.png)
+
+#### Accessing hidden instance and static variables’
+* To access a hidden instance variable the `this` keyword is used, because the this keyword reference to the calling object (an instance)
+* To access a hidden static variable the syntax : `ClassName.staticVariable` is used to reference
+The `this` keyword gives us a way to reference the object that invokes an instance method.
+
+### 9.14.2 Using `this` to invoke a Constructor
+The keyword can be used to invoke another constructor of the same class:
+
+![this construction](source-files/imgs/thisstruct.png)
+
+#### Note:
+* Java requires that, in a constructor, the `this(arg-list)` statement, if to be declared, appear first before any other statements.
+* Always create a constructor by calling other constructors that can manage initializing most of the constructors parameters (if they exist). This improves code readability.
