@@ -522,3 +522,97 @@ String line = input.nextLine();
 What do you suppose might happen?  What happens is that 32 will be stored in `intValue` and an empty String will be stored in `line`. This happens because a token based input reads its characters and stops at a delimiter which is the line separator in this case, and when the `nextLine` is invoked it always stops at the first occurrence of a line separator while returning the string before that line separator, in this case there are no characters before the line separator; so it returns an empty string.
 
 For this reason, you should not use a line based input after a token based input.
+
+Note:
+* You can also tokenize String objects using the `Scanner` class
+
+### 12.11.5 Case Study: Replacing Text
+```java
+import java.io.*;
+import java.util.*;
+
+public class ReplaceText {
+	public static void main(String[] args) throws Exception {
+		if (args.length != 4) {
+			System.out.println( "Usage: java ReplaceText sourceFile" + 
+				" targetFile oldStr newStr");
+			System.exit(1);
+		}
+		
+		File source = new File(args[0]);
+		if (!source.exists())
+			endIt(args[0]);
+		
+		File target = new File(args[1]);
+		if (!target.exists())
+			endIt(args[1]);
+		
+		try (
+			Scanner input = new Scanner(source);
+			PrintWriter output = new PrintWriter(target)
+		) {
+			while (input.hasNext()) {
+				String s1 = input.nextLine();
+				String s2 = s1.replaceAll(args[2], args[3]);
+				output.println(s2);
+			}
+		}
+	}
+	public static void endIt(String name) {
+		System.out.println("Source file: " + name + " does not exist");
+		System.exit(2);
+	}
+}
+```
+
+## 12.12 Reading Data from the Web
+For an application to read data from a URL, a URL object would have to be created with `java.net.URL` class with the constructor:
+```java
+	public URL(String spec) throws MalformedURLException
+```
+an example of a URL objects accessing google:
+```java
+try (
+	URL url = new URL("http://www.goole.com/index.html");
+)
+catch (MalformedURLException ex) {
+	ex.printStackTrace();
+}
+```
+after the URL object is created, you can use the `openStream()` method defined in the URL class to open an input stream and use this stream to create a `Scanner` object as follows:
+```java
+Scanner input = new Scanner(url.openStream());
+```
+Now we can read the data from the input stream like a local file.
+```java
+import java.util.Scanner;
+
+public class ReadFilefromURL {
+	public static void main(String[] args) {
+		System.out.println("Enter a URL: ");
+		String URLString = new Scanner(System.in).next();
+
+		try {
+			int count = 0;
+			java.net.URL url = new java.net.URL(URLString);
+			Scanner input = new Scanner(url.openStream());
+			while (input.hasNext()) {
+				String line = input.nextLine();
+				count += line.length();
+			}
+			System.out.println("file size: " + count);
+		}
+		catch (java.net.MalformedURLException ex) {
+			System.out.println("Invalid URL");
+		}
+		catch (java.io.IOException ex) {
+			System.out.println("I/O Errors: no such file");
+		}
+	}
+}
+```
+
+## 12.13 Case Study: Web Crawler
+This case study develops a program that travels the web by the following hyperlinks.
+The implementation can be found [here](source-files/Chapter-12/WebCrawler.java)
+
