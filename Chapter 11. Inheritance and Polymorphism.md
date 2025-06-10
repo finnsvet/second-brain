@@ -110,7 +110,7 @@ There are some points worth noting:
 ## 11.5 Overriding vs. Overloading
 Overloading means to define multiple methods with the same name but different signatures. Overriding means same signature with new implementation in subclass.
 
-![overriding and overloading](ridingandloading.png)
+![overriding and overloading](source-files/imgs/ridingandloading.png)
 
 Things worth noting:
 * Overridden methods are in different classes related by inheritance; overloaded methods can be either in the same class, or in different classes related by inheritance
@@ -243,7 +243,7 @@ public boolean equals(Object obj) {
 one should override this method to best suite the required need.
 
 Note: CAUTION
-![equals override](equalsoverride.png)
+![equals override](source-files/imgs/equalsoverride.png)
 
 ## 11.11 The ArrayList Class
 An ***ArrayList*** object can be used to store a list of objects.
@@ -274,7 +274,7 @@ ArrayList<E> list = new ArrayList<>();
 ```
 
 ### Table 11.1 Difference and similarities between Arrays and ArrayList
-![array list methods](arraylistmeth.png)
+![array list methods](source-files/imgs/arraylistmeth.png)
 
 The array-list class only store object types; it cannot hold primitive types, the following code will not work:
 ```java
@@ -299,7 +299,7 @@ list.toArray(array1;
 ## 11.13 Case Study: A custom Stack Class
 its UML:
 
-![ArrayList stack UML](liststack.png)
+![ArrayList stack UML](source-files/imgs/liststack.png)
 
 its [implementation](source-files/Chapter-11/MyStack.java).
 
@@ -311,7 +311,7 @@ a class member declared with the  `protected` visibility modifier **only** grant
 
 The subclass can be of any package and still be granted access but, if that class is not a subclass and still wants access, it must belong to the same package.
 
-![Visibility Modifiers](visiblitymodifs.png)
+![Visibility Modifiers](source-files/imgs/visiblitymodifs.png)
 
 classes can be used in two ways:
 1) creating instances and
@@ -325,7 +325,7 @@ so:
 
 This image shows the spectrum of visibility modifiers by order of increasing visibility:
 
-![visibility spectrum](visibilitySpectrum.png)
+![visibility spectrum](source-files/imgs/visibilitySpectrum.png)
 
 ## Preventing Extending and Overriding 
 this is done by using the `final` modifier; a `final` class cannot be extended or inherited from; a `final` method can not be overridden.

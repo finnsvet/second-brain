@@ -132,7 +132,7 @@ Java has an exception handling model which is based on three operations:
 2) Throwing an exception and
 3) Catching an exception
  
-![exception handling](exceptionhandling.png)
+![exception handling](source-files/imgs/exceptionhandling.png)
 
 ### 12.4.1 Declaring Exception
 Every method musts state the typed of **checked exceptions** it must throw. This is known as *declaring exceptions*.  Because System and Runtime exceptions can happen to any code, Java does no require we declare `Error` and `RuntimeException` (unchecked exceptions) explicitly in the method.
@@ -187,11 +187,11 @@ the code that handles the exception is known as the exception handler. Each exce
 * Various exception class can be derived from a common superclass, if a `catch` block catches an exception of a superclass, that same catch block will be able to catch Exceptions from subclasses of the superclass.
 * The order in which exceptions are specified in a catch block is important, A compile error will result if a catch block for a superclass type is declared before the catch block for a subclass type.
 
-![exception order](exceptionOrder.png)
+![exception order](source-files/imgs/exceptionOrder.png)
 
 * Java force us to deal with checked exceptions, if a method declares a checked exception, you must invoke it in a try-catch block or declare to throw the exception to the calling method.
 
-![throw or declare](throwordeclare.png)
+![throw or declare](source-files/imgs/throwordeclare.png)
 
 * You can use the new JDK7 multi-catch feature to simplify coding for the exceptions with the same handling code, it syntax:
 ```java
@@ -202,7 +202,7 @@ catch (Exception1 | Exception2 | ... | ExceptionK ex) {
 
 ### 12.4.4 Getting information from Exceptions
 
-![exception  methods](exceptionmethods.png)
+![exception  methods](source-files/imgs/exceptionmethods.png)
 
 ### 12.4.5 Example: Declaring Throwing  and Catching Exceptions
 ==Example== 5:
@@ -341,7 +341,7 @@ The `Exception` class extends `java.lang.Throwable`. So all the methods (`getMes
 
 These are the often used constructors in the Exception class:
 
-![Exception class constructs](exceptionconstructs.png)
+![Exception class constructs](source-files/imgs/exceptionconstructs.png)
 
 Its better to inherit from **checked** `Throwable` classes ( classes that are not `Error` or `RuntimeException` and its subclass), You could inherit from unchecked but in that case the compiler will not force the exception to be caught in your program which can lead to bugs.
 
@@ -350,7 +350,7 @@ The `File` class contains the methods for obtaining the properties of a file/dir
 
 A `File` object encapsulates the properties of a file or a path, but it does not contain the methods for writing/reading data to/from a file; that is done by I/O classes. 
 
-![fileuml](fileuml.png)
+![fileuml](source-files/imgs/fileuml.png)
 
 There are two types of files:
 1) **Text**: characters on disk
@@ -365,7 +365,7 @@ PrintWriter output = new PrintWriter(filename);
 ```
 Below is the UML of the `PrintWriter` class:
 
-![Print Writer Class](printwriteruml.png)
+![Print Writer Class](source-files/imgs/printwriteruml.png)
 
 An ==Example==:
 ```java
@@ -397,7 +397,7 @@ Things to Note:
 ### 12.11.2 Closing Resources Automatically Using `try-with-resources`
 Because sometimes programmers forget to close a file, JDK 7 provides the try-with-resources syntax that automatically closes the file.
 ```java
-tru (declare and create resources) {
+try (declare and create resources) {
 	Use the resources to process the file;
 }
 ```
@@ -424,7 +424,7 @@ public class WriteData {
 ```
 The resource declared and created in the parenthesis following the keyword `try` must be a sub-type of `AutoCloseable` such as `PrintWriter` that has the `close()` method. A resource must be declared and created in the same statement. Multiple resources can be declared inside the parentheses. The statements in the block use the resources, after the block is finished, the resources `close()` method is automatically invoked to close the resource.
 
-![tryopen](tryopen.png)
+![tryopen](source-files/imgs/tryopen.png)
 
 ### 12.11.3 Reading Data Using Scanner
 A `Scanner` breaks its input into delimited by whitespace characters. To read input from the Keyboard, you create a `Scanner` for System.in, as follows:
@@ -435,7 +435,7 @@ To **read from a file**, create a `Scanner` for the file as follows:
 ```java
 Scanner input = new Scanner(new File(filename));
 ```
-![scannerclass](scannerclass.png)
+![scannerclass](source-files/imgs/scannerclass.png)
 
 An ==Example== using the Scanner class for a file:
 ```java

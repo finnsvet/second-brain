@@ -77,7 +77,7 @@ in a relation the number of class objects partaking to make that relationship va
 In UML the character `*` means an unlimited number of objects
 and the interval `m..n` indicates number of objects is between m and n, inclusively.
 
-![class association](classassociation.png)
+![class association](source-files/imgs/classassociation.png)
 
 ### 10.4.2  **Aggregation and Composition**
 **Aggregation** is a special form of association between 2 objects in which one objects owns the other. The object that owns is known as the *aggregating objects* and the other being owned is known as the *aggregated object*. Aggregation is an ownership form of association. Aggregation models *has-a* relationships: the student *has a* name
@@ -94,7 +94,7 @@ the above UML can be represented as such:
 
 Aggregation may also exist between objects of the same type, for example a person may have a supervisor:
 
-![same class multiplicity](sameclassmultiplicity.png)
+![same class multiplicity](source-files/imgs/sameclassmultiplicity.png)
 
 ## 10.6 Case Study: Designing a class for Stacks
 In this a class stack holding integer values will be designed, This is the UML diagram:
@@ -225,13 +225,13 @@ Using the StringBuilder on the other hand is more beneficial if its accessed by 
 The constructors and methods of the StringBuilder and Buffer classes are almost the same so they can be declared and handled the same way in most cases.
 
 ### StringBuilder Constructors
-![String Builder](strbuilderconstruct.png)
+![String Builder](source-files/imgs/strbuilderconstruct.png)
 
 ### StringBuilder Methods for modifying
-![string builder methods](strbuildmeths.png)
+![string builder methods](source-files/imgs/strbuildmeths.png)
 
 ### StringBuilder `toString`, `capacity`, `length`, `setLength` and `charAt` Methods
-![String extra methods](strextrameths.png)
+![String extra methods](source-files/imgs/strextrameths.png)
 
 the `capacity` method returns the current capacity of the string builder; which is the number of characters the string builder is able to store without having to increase its size.
 

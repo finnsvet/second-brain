@@ -28,7 +28,7 @@ A constructor can perform any option but its main directive is to perform the in
 
 The below image shows how classes are defined; Highlighting the different parts of a class including its data fields, constructors and methods.
 
-![classwithconstruction](classwithconstruction.png)
+![classwithconstruction](source-files/imgs/classwithconstruction.png)
 
 The above class does not have a main method so it cannot run, only classes with main methods run and they are referred to as `main classes`.
 
@@ -67,7 +67,7 @@ The above program contains two classes. `TestCircle` is the main class. Its sole
 
 The two classes can be placed in the same file but only one can be a public class. The public class must have the same name as the file name. Each class in the source code will be compiled into a `.class` file.
 
-![classcompile](classcompile.png)
+![classcompile](source-files/imgs/classcompile.png)
 
 The main class (`TestCircle`) contains the main method, that creates the `Circle` objects. The `new` operator is used to create an object from the constructor.
 
