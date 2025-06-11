@@ -47,7 +47,8 @@ public class PrintCalendar {
   private static void print(Calendar date) {
     printHeader(date);
     int[][] dayMatrix = getDayMatrix(date);
-    for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < 6; ++i) {
+      if (i == 5 && dayMatrix[i][0] == 0) break;
       for (int k = 0; k < 7; ++k) {
         if (dayMatrix[i][k] == 0) System.out.printf("%4c", ' ');
         else System.out.printf("%4d", dayMatrix[i][k]);
@@ -57,12 +58,12 @@ public class PrintCalendar {
   }
 
   private static int[][] getDayMatrix(Calendar date) {
-    int[][] dayMatrix = new int[5][7];
+    int[][] dayMatrix = new int[6][7];
     int firstDay = date.get(Calendar.DAY_OF_WEEK);
     int initialMonth = date.get(Calendar.MONTH);
     boolean started = false;
     int dayCount = 1;
-    for (int week = 0; week < 5; ++week) {
+    for (int week = 0; week < 6; ++week) {
       for (int day = 0; day < 7; ++day) {
         if (dayCount >= 27) {
           date.set(Calendar.DATE, dayCount);
