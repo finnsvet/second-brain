@@ -478,7 +478,7 @@ class Brocolli implements Edible {
 }
 ```
 
-## 13.8 Case Study: The `Rational` Class
+## 13.9 Case Study: The `Rational` Class
 the UML of the class:
 
 ![rational uml](source-files/imgs/rationaluml.png)
@@ -487,3 +487,13 @@ its implementation: [file](source-files/Chapter-13/Rational.java), Although the 
 
 ## 13.10 Class-Design Guidelines
 Class design guidelines are helpful for designing sound classes.
+* **Cohesion**: A class should describe a single entity, and all its operations should logically fit together to support a coherent purpose. A single entity with many responsibilities can be broken into several classes to separate the responsibilities
+* **Consistency**: a class design and declaration should be consistent.
+* **Encapsulation**: A class should use the `private` modifier to hide its data from direct access by clients. This makes the class easy to maintain. Provide a getter methods only if you want a data-field to be readable, a setter is you want the data field to be update-able, and no setter method for immutability.
+* **Clarity**: A class should have a clear contract that is easy to explain and understand. You should not declare data fields that can be derived from other data fields.
+* **Completeness**: Classes are designed to for use by many customers. in order to be useful in a wide range of applications, a class should provide a variety of ways fro customization through properties and methods.
+* **Instance vs. Static**: a variable or method that is dependent on a specific instance of the class must be an instance variable or method. A variable that is shared by all instances of a class should be declared static. Always reference static members from a class name (rather than a reference variable) to improve readability and avoid errors.
+* **Inheritance vs. Aggregation**: the difference between inheritance and aggregation is the difference between an *is-a* and a *has-a* relationship
+* **Interfaces vs. Abstract Classes**: A strong *is-a* relationship that clearly describes a *parent-child* relationship should be modeled via class. A weak *is* relationship can be modeled using interfaces. Interfaces are more flexible than abstract classes because a subclass can only extend one class, but implement any number of interfaces.
+
+
