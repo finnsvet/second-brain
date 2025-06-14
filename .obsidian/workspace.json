@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "5b27ebc421828497",
+    "type": "split",
+    "children": [
+      {
+        "id": "6022fab6be578bc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb7a62f73c71e747",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction to java, Daniel Liang/Chapter 14. JavaFx Basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 14. JavaFx Basics"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4baa20e83797122a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a09b61687da3b2d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "327feb7349607322",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b9ec7a28b9359c3d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6ba694250783b270",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "70a8f35661ddeb08",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c8fe2cdf69cd2de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3aef9699f6feb9a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Introduction to java, Daniel Liang/Chapter 9. Object and Classes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Chapter 9. Object and Classes"
+            }
+          },
+          {
+            "id": "01fef35cc8f08bf0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Introduction to java, Daniel Liang/Chapter 8. Multidimensional Arrays.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Chapter 8. Multidimensional Arrays"
+            }
+          },
+          {
+            "id": "ccd6cca53d9f9ebb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4422c438502e016a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Introduction to java, Daniel Liang/Chapter 10. Object-Oriented Thinking.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Chapter 10. Object-Oriented Thinking"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cb7a62f73c71e747",
+  "lastOpenFiles": [
+    "Books/Introduction to Java Programming and Data Structures, Comprehensive Version, Global Edition (Y. Daniel Liang) (Z-Library).pdf",
+    "networking",
+    "scip",
+    "software-design",
+    "cpp-primer",
+    "Books/sicp.pdf",
+    "Books/The Pragmatic Programmer - 20th Anniversary Edition (David Thomas, Andrew Hunt) (Z-Library).pdf",
+    "Books/Structure and Interpretation of Computer Programs (Harold Abelson, Gerald Jay Sussman) (Z-Library).pdf",
+    "Books/How to Write a Bittorrent Client, Part 1 | kristenwidman.pdf",
+    "Books/Computer Networking A Top-Down Approach (James F. Kurose, Keith W. Ross) (Z-Library).pdf",
+    "Books/C++.Primer.5th.Edition_2013.pdf",
+    "Introduction to java, Daniel Liang/Chapter 4. Mathematical Functions, Characters and Strings..md",
+    "Introduction to java, Daniel Liang/Chapter 10. Object-Oriented Thinking.md",
+    "Introduction to java, Daniel Liang/Chapter 9. Object and Classes.md",
+    "Introduction to java, Daniel Liang/Chapter 7. Single Dimensional Arrays.md",
+    "Introduction to java, Daniel Liang/Chapter 12. Exception Handling and Text I O.md",
+    "Introduction to java, Daniel Liang/Chapter 14. JavaFx Basics.md",
+    "Introduction to java, Daniel Liang/Chapter 13. Abstract Classes and Interfaces.md",
+    "Introduction to java, Daniel Liang/source-files/imgs/rationaluml.png",
+    "Introduction to java, Daniel Liang/source-files/imgs/interfacetype.png",
+    "Introduction to java, Daniel Liang/source-files/imgs/interfaceperks.png",
+    "Introduction to java, Daniel Liang/Chapter 11. Inheritance and Polymorphism.md",
+    "Introduction to java, Daniel Liang/Chapter 8. Multidimensional Arrays.md",
+    "Introduction to java, Daniel Liang/source-files/imgs/calendarclass.png",
+    "Introduction to java, Daniel Liang/source-files/imgs/numberclass.png",
+    "source-files/Chapeter-11/GeometricObjects/GeometricObject.java 2.md",
+    "source-files/Chapeter-11/GeometricObjects/GeometricObject.java 1.md",
+    "source-files/Chapeter-11/GeometricObjects/GeometricObject.java.md",
+    "Introduction to java, Daniel Liang/source-files/imgs/scannerclass.png",
+    "Introduction to java, Daniel Liang/source-files/imgs/tryopen.png",
+    "Introduction to java, Daniel Liang/source-files/imgs/fileuml.png",
+    "Introduction to java, Daniel Liang/source-files/imgs/printwriteruml.png",
+    "Introduction to java, Daniel Liang/source-files/imgs/exceptionconstructs.png",
+    "Introduction to java, Daniel Liang/Chapter 2. Elementary programming.md",
+    "Introduction to java, Daniel Liang/Chapter 1.  Introduction to Computers, Programs and java..md",
+    "Introduction to java, Daniel Liang/Chapter 3. Selections.md",
+    "Introduction to java, Daniel Liang/Chapter 5. Loops.md",
+    "Introduction to java, Daniel Liang/Chapter 6. Methods.md",
+    "2025 GOALS.md",
+    "Introduction to java, Daniel Liang/MOOC Java Course Notes/Part 1/02. Printing.md",
+    "Introduction to java, Daniel Liang/MOOC Java Course Notes/Part 1/01. Notes on Java.md",
+    "source-files.md",
+    "Untitled.md",
+    "Minecraft/Mine-craft clone built with c++.md",
+    "Introduction to java, Daniel Liang/source-files/Chapter-01/legal/pako.md",
+    "Introduction to java, Daniel Liang/source-files/Chapter-01/legal/jszip.md"
+  ]
+}

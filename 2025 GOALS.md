@@ -1,0 +1,15 @@
+- [ ] Build a blogging and resume website
+- [ ] Get a job with Java:
+	- [ ] learn Java
+	- [ ] learn about spring boot
+	- [ ] build a project and update my resume
+	- [ ] apply
+- [ ] complete the nand2tetris course + The Elements of computing systems
+- [x] make a raycaster clone with c++
+- [ ] Decentralize my phone:
+	- [x] Get a Laptop
+	- [ ] sell my phone and replace it with a dumb-phone
+	- [x] get a mi-fi
+	- [x] get a kindle
+	- [ ] get an iPod with Bluetooth functionality
+- [x] Get back into art
