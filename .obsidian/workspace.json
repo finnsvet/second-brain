@@ -11,10 +11,14 @@
             "id": "cb7a62f73c71e747",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "C++ Primer/Chapter 02. Variables and Basic Types.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Chapter 02. Variables and Basic Types"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "70a8f35661ddeb08",
@@ -166,6 +169,13 @@
   },
   "active": "cb7a62f73c71e747",
   "lastOpenFiles": [
+    "C++ Primer/Chapter 01.md",
+    "C++ Primer/Chapter 02. Variables and Basic Types.md",
+    "Structure and Intepretation of Computer Programs Harold Ableson, Gerald Jay Sussman/Chapter 01. Building Abstractions with Procedures.md",
+    "2025 GOALS.md",
+    "Introduction to java, Daniel Liang/Chapter 14. JavaFx Basics.md",
+    "Introduction to java, Daniel Liang/Chapter 2. Elementary programming.md",
+    "Introduction to java, Daniel Liang/source-files/Chapter-14/MyJavaFX.class",
     "Elements of Computing Noam Nisan Shimon Schocken/The Elements of Computing Systems Building a Modern Computer from First Principles (Noam Nisan, Shimon Schocken) (Z-Library).pdf",
     "Elements of Computing Noam Nisan Shimon Schocken",
     "Structure and Intepretation of Computer Programs Harold Ableson, Gerald Jay Sussman",
@@ -175,9 +185,6 @@
     "Computer Networking James F Kurose, Keith W. Ross",
     "Books/sicp.pdf",
     "Books/The Pragmatic Programmer - 20th Anniversary Edition (David Thomas, Andrew Hunt) (Z-Library).pdf",
-    "Books/Introduction to Java Programming and Data Structures, Comprehensive Version, Global Edition (Y. Daniel Liang) (Z-Library).pdf",
-    "Books/Structure and Interpretation of Computer Programs (Harold Abelson, Gerald Jay Sussman) (Z-Library).pdf",
-    "2025 GOALS.md",
     "Introduction to java, Daniel Liang/source-files/imgs/wrapperclass.png",
     "Introduction to java, Daniel Liang/source-files/imgs/visiblitymodifs.png",
     "Introduction to java, Daniel Liang/source-files/imgs/visibilitySpectrum.png",
@@ -207,10 +214,6 @@
     "Introduction to java, Daniel Liang/Chapter 5. Loops.md",
     "Introduction to java, Daniel Liang/Chapter 4. Mathematical Functions, Characters and Strings..md",
     "Introduction to java, Daniel Liang/Chapter 3. Selections.md",
-    "Introduction to java, Daniel Liang/Chapter 2. Elementary programming.md",
-    "Introduction to java, Daniel Liang/Chapter 14. JavaFx Basics.md",
-    "Introduction to java, Daniel Liang/Chapter 13. Abstract Classes and Interfaces.md",
-    "Introduction to java, Daniel Liang/Chapter 12. Exception Handling and Text I O.md",
-    "Introduction to java, Daniel Liang/Chapter 10. Object-Oriented Thinking.md"
+    "Introduction to java, Daniel Liang/Chapter 13. Abstract Classes and Interfaces.md"
   ]
 }
