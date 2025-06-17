@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6022fab6be578bc4",
+        "id": "6567533fe58eae31",
         "type": "tabs",
         "children": [
           {
-            "id": "cb7a62f73c71e747",
+            "id": "6d166753f41349fa",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Books/Computer Networking A Top-Down Approach (James F. Kurose, Keith W. Ross) (Z-Library).pdf"
+                "file": "intro_to_java_daniel_liang/Chapter 14. JavaFx Basics.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Computer Networking A Top-Down Approach (James F. Kurose, Keith W. Ross) (Z-Library)"
+              "icon": "lucide-file",
+              "title": "Chapter 14. JavaFx Basics"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "70a8f35661ddeb08",
@@ -165,33 +168,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb7a62f73c71e747",
+  "active": "6d166753f41349fa",
   "lastOpenFiles": [
-    "networking/Computer Networking James F Kurose, Keith W. Ross",
-    "networking",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/jquery/jszip-utils/dist/jszip-utils.min.js",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/jquery/jszip-utils/dist/jszip-utils.js",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/jquery/jszip-utils/dist/jszip-utils-ie.min.js",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/jquery/jszip-utils/dist/jszip-utils-ie.js",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/jquery/jszip/dist/jszip.min.js",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/jquery/jszip/dist/jszip.js",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/jquery/external/jquery/jquery.js",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/jquery/jszip/dist",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/jquery/jszip-utils/dist",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/resources/x.png",
-    "intro_to_java_daniel_liang/source-files/Chapter-01/resources/glass.png",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowGridPane.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowGridPane.java",
+    "intro_to_java_daniel_liang/source-files/imgs/gridpaneuml.png",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowFlowPane.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowFlowPane.java",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowFlowPane.png",
+    "intro_to_java_daniel_liang/source-files/imgs/flowpaneuml.png",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/imgs/lady.png",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/Test.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/Test.java",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowImage.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/imgs/autoboxing.png",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/imgs",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowImage.java",
+    "intro_to_java_daniel_liang/source-files/imgs/imgsclassfx.png",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/FontDemo.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-14/FontDemo.java",
+    "intro_to_java_daniel_liang/source-files/imgs/fontclass.png",
+    "intro_to_java_daniel_liang/source-files/imgs/colorclass.png",
+    "intro_to_java_daniel_liang/source-files/imgs/javacordinate.png",
+    "intro_to_java_daniel_liang/source-files/imgs/Nodeclass.png",
+    "intro_to_java_daniel_liang/Chapter 14. JavaFx Basics.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/pako.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/jszip.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/jqueryUI.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/jquery.md",
-    "intro_to_java_daniel_liang/source-files/imgs/wrapperclass.png",
-    "intro_to_java_daniel_liang/source-files/imgs/visiblitymodifs.png",
-    "intro_to_java_daniel_liang/source-files/imgs/tryopen.png",
-    "intro_to_java_daniel_liang/source-files/imgs/visibilitySpectrum.png",
-    "intro_to_java_daniel_liang/source-files/imgs/throwordeclare.png",
-    "intro_to_java_daniel_liang/source-files/imgs/throwable.png",
-    "intro_to_java_daniel_liang/source-files/imgs/thisstruct.png",
-    "intro_to_java_daniel_liang/source-files/imgs/thissetter.png",
     "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 2/0.2 Repeating functionality (Loops).md",
     "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 2/0.1 Recurring problems and patterns to solve them.md",
     "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/06. Conditional statements and conditional operation.md",
@@ -208,7 +212,6 @@
     "intro_to_java_daniel_liang/Chapter 4. Mathematical Functions, Characters and Strings..md",
     "intro_to_java_daniel_liang/Chapter 3. Selections.md",
     "intro_to_java_daniel_liang/Chapter 2. Elementary programming.md",
-    "intro_to_java_daniel_liang/Chapter 14. JavaFx Basics.md",
     "intro_to_java_daniel_liang/Chapter 13. Abstract Classes and Interfaces.md",
     "intro_to_java_daniel_liang/Chapter 12. Exception Handling and Text I O.md",
     "intro_to_java_daniel_liang/Chapter 11. Inheritance and Polymorphism.md",
