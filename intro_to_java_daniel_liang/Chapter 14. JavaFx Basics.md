@@ -79,7 +79,7 @@ Things to Note:
 * `Circle.setStroke()` and `Circle.setFill()` do what thy sound like they do. This methods take in `scene.paint.Color` as argument.
 * The java co-ordinate system is used for any Cartesian description:
  
-![java co-ordinate system](javacordinate.png)
+![java co-ordinate system](source-files/imgs/javacordinate.png)
 
 * The `Circle` object, upon the windows first inception, is positioned at the center of the plane, but after resizing the window the circle no longer remains at the center, this is because, to achieve centralization, the circle midpoints must be updated to whatever the altered window’s current center is at any given point in time. This can be achieved via **Property Binding**
 
