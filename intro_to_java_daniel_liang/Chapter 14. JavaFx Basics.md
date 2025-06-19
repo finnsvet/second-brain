@@ -260,4 +260,52 @@ A `GridPane` arranges nodes in a grid (matrix) formation. The nodes are places i
 An Implementation can be found [here](source-files/Chapter-14/ShowGridPane.java)
 
 ### 14.10.3 `BorderPane`
+A `BorderPane` can place nodes in five regions: Top, Bottom, Left, Right and Center.
+using `set_Position(node)` where `_Position` are the regions stated earlier. e.g `setTop(node)`.
 
+![Border Pane](source-files/imgs/borderpaneuml.png)
+
+Here is an [implementation](source-files/Chapter-14/ShowBorderPane.java)
+
+## 14.10.4 `HBox` and `VBox`
+An `HBox` lays out its children in a single horizontal row. A `VBox` lays out its children in a single vertical column.
+
+![vbox and hbox UML](source-files/imgs/vboxhboxuml.png)
+
+Its implementation: [here](source-files/Chapter-14/ShowHBoxVBox.java)
+
+## 14.11 Shapes
+JavaFX provides many shape classes for drawing texts, lines, circle, rectangles, ellipses, arcs, polygons and poly-lines.
+
+### 14.11.2 `Line`
+A line connects two points with four parameters: `startX`, `startY`, `endX` and `endY`
+
+![line UML](source-files/imgs/lineuml.png)
+
+an implementation can be found [here](source-files/Chapter-14/ShowLine.java)
+
+### 14.11.3 `Rectangle`
+A rectangle is defined is defined by the parameters `x`, `y`, `width`, `height`, `arcWidth` and `arcHeight`.
+
+![rectangle uml](source-files/imgs/rectangleUML.png)
+
+An implementation can be found [here](source-files/Chapter-14/ShowRect.java)
+
+An advantage of `Group` is that you can apply transformations to a set of nodes
+```java
+group.setScale(2);
+group.setScale(2);
+```
+
+### 14.11.4 `Circle` and `Ellipse`
+
+![circle and ellipse uml](source-files/imgs/ellipseuml.png)
+
+Listing 14.17 [implementation](source-files/Chapter-14/ShowEllipse.java)
+
+### 14.11.6—7 `Arc` , `Polygon` and `Polyline` 
+read the book man, i’m tired.
+
+## 14.12 Case Study: The `ClockPane` Class
+This study develops a class that displays a clock on a pane. Here is my own implementation: [file](source-files/Chapter-14/ClockPane./ClockPane.java)
+i

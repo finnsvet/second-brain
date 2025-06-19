@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "intro_to_java_daniel_liang/Chapter 14. JavaFx Basics.md",
+                "file": "intro_to_java_daniel_liang/Chapter 15 Event-Driven Programming and Animations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 14. JavaFx Basics"
+              "title": "Chapter 15 Event-Driven Programming and Animations"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "70a8f35661ddeb08",
@@ -170,28 +169,28 @@
   },
   "active": "6d166753f41349fa",
   "lastOpenFiles": [
-    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowGridPane.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowGridPane.java",
-    "intro_to_java_daniel_liang/source-files/imgs/gridpaneuml.png",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowFlowPane.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowFlowPane.java",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowFlowPane.png",
-    "intro_to_java_daniel_liang/source-files/imgs/flowpaneuml.png",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/imgs/lady.png",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/Test.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/Test.java",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowImage.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/imgs/autoboxing.png",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/imgs",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/ShowImage.java",
-    "intro_to_java_daniel_liang/source-files/imgs/imgsclassfx.png",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/FontDemo.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-14/FontDemo.java",
-    "intro_to_java_daniel_liang/source-files/imgs/fontclass.png",
-    "intro_to_java_daniel_liang/source-files/imgs/colorclass.png",
-    "intro_to_java_daniel_liang/source-files/imgs/javacordinate.png",
-    "intro_to_java_daniel_liang/source-files/imgs/Nodeclass.png",
     "intro_to_java_daniel_liang/Chapter 14. JavaFx Basics.md",
+    "intro_to_java_daniel_liang/Chapter 15 Event-Driven Programming and Animations.md",
+    "intro_to_java_daniel_liang/source-files/imgs/inneranon.png",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/CirclePane.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/ControlCircle.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/ControlCircle$EnlargeHanlder.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/ControlCircle$ShrinkHandler.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/ControlCircle.java",
+    "intro_to_java_daniel_liang/source-files/imgs/eventlistening.png",
+    "intro_to_java_daniel_liang/source-files/imgs/eventhanlders.png",
+    "intro_to_java_daniel_liang/source-files/imgs/javafxevent.png",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/CanHandler.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/OkHandler.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/HandleEvent.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/jfx",
+    "intro_to_java_daniel_liang/source-files/Chapter-15/HandleEvent.java",
+    "intro_to_java_daniel_liang/source-files/imgs/eventhandleprocess.png",
+    "intro_to_java_daniel_liang/source-files/imgs/ellipseuml.png",
+    "intro_to_java_daniel_liang/source-files/imgs/rectangleUML.png",
+    "intro_to_java_daniel_liang/source-files/imgs/lineuml.png",
+    "intro_to_java_daniel_liang/source-files/imgs/vboxhboxuml.png",
+    "intro_to_java_daniel_liang/source-files/imgs/borderpaneuml.png",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/pako.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/jszip.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/jqueryUI.md",
@@ -214,7 +213,6 @@
     "intro_to_java_daniel_liang/Chapter 2. Elementary programming.md",
     "intro_to_java_daniel_liang/Chapter 13. Abstract Classes and Interfaces.md",
     "intro_to_java_daniel_liang/Chapter 12. Exception Handling and Text I O.md",
-    "intro_to_java_daniel_liang/Chapter 11. Inheritance and Polymorphism.md",
-    "intro_to_java_daniel_liang/Chapter 10. Object-Oriented Thinking.md"
+    "intro_to_java_daniel_liang/Chapter 11. Inheritance and Polymorphism.md"
   ]
 }
