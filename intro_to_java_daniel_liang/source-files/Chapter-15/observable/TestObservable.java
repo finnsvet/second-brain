@@ -30,12 +30,12 @@ public class TestObservable {
   public static void main(String[] args) {
     Observable object = new Observable();
     object.addListener(o -> {
-      if (o.getValue() != o.getPreValue())
-        System.out.printf("I am listening: value changed from %d to %d\n", o.getPreValue(), o.getValue());
+      if (o.getValue() == o.getPreValue())
+        System.out.printf("Bro, you just told me that before, be. original.\n", o.getPreValue(), o.getValue());
     });
 
     Scanner input = new Scanner(System.in);
-    System.out.println("This is a listener it will tell you if you input a number twice; INPUT!:");
+    System.out.println("This is a listener it will tell you if you input a number twice, consecutively; INPUT!:");
     while (true) {
       object.setValue(input.nextInt());
     }
