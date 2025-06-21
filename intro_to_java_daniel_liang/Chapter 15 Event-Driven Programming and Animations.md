@@ -97,3 +97,61 @@ Since an anonymous inner class is a special kind of inner class, it is treated l
 * An anonymous inner class is compiled into a class named `OuterClassName$n.class` where `n` is order number, starting from 1, of the anonymous classes created in the Outer class.
 
 ## Listing 15.4
+Implementation [here](source-files/Chapter-15/AnonymousHandler.java). A benefit of an anonymous inner class is that they can access local variables
+
+## 15.6 Lambda Expressions
+lambda expressions can be used to greatly simplify coding for event handling.
+
+lambda expressions creates anonymous instances of *SAM* interfaces: *Single Abstract Method* Interface. *SAM* interfaces are interfaces with a single method in their definition which must be abstract.
+
+How lambda expressions works is that :
+1) it is invoked as an argument to a method and from said method, it can infer what type class is to be instantiated due to the type of object the invoking methods requires as an argument
+2) Once the class type has been inferred the lambda checks if said interface is a *Single Abstract Method* interface, if its not—compiler errors out
+3) Now that the class type has been inferred and it has located the only method in it, it relies on provided parameter list of the single abstract method, and uses the declared statement(s) in the lambda-expressions *body*, to instantiate an anonymous inner class with an overridden single abstract method. In which the definition of the overridden single abstract method is gotten from the statements previously declared in the lambda-expressions statement-body.
+4) in the lambda-expression the *Single Abstract Method* parameters are also declared, so they can be referenced in the lambda-expression body which is also the body of the to-be overridden *Single Abstract Method*
+5) The data type in the lambda-expression body may be explicitly declared or implicitly inferred by the compiler
+
+Lambda expressions can be viewed as an anonymous class with a concise syntax. For the compiler to understand lambda expressions, the interface must contain exactly one abstract method (*Single Abstract Method interface*).
+
+Syntax rules for lambda:
+A lambda expression comprises of 3 syntax elements
+1) the parameter list
+2) The, what i like to call, lambda operator: `->`
+3) lambda-expressions body. Which could be either:
+	1) an `expression` 
+	2) or a group of blocked `statements`
+
+Basic lambda syntax:
+```java
+(type1 param1, type2 param2, ..., typeK paramK) -> statement
+// no semicolon after statement
+```
+or
+```java
+(type1 param1, type2 param2, ..., typeK paramK) -> { statements; }
+```
+
+4) The data type may be explicitly declared or implicitly inferred by the compiler
+5) parentheses can be omitted if there is only one parameter without explicit data type
+6) curly braces can be omitted if there is only ones statement in the lambda-expression body
+
+![Lambda Syntax](source-files/imgs/lambdaSyntax.png)
+
+*SAM* interfaces are also known as *functional interfaces*, their instances are also known as a  *functional object*. Since lambdas are squarely on defining a function, a lambda expression is also called a *lambda function*
+
+Other things to note about lambdas:
+1)  lambdas do not create inner anonymous classes, or classes even.
+2) The compiler treats lambda expressions **as if it is** an object created from an anonymous inner class
+3) lambdas created instances of already existing interfaces types with modified characteristics
+
+[Listing 15.5](source-files/Chapter-15/LambdaHandler.java) and [Listing 15.6](source-files/Chapter-15/TestLambda.java)
+Things i noticed:
+1) the annotation: `@FunctionalInterface` tells the compiler that the interface is a functional interface /*SAM* interface
+2) when using an expression in lambda-expressions body, the compiler can automatically infer if that expression is to be returned or just computed depending on the Interfaces method definition. So, i feel, in some cases there is no need to add the `return` keyword; since the compiler can infer when to return by itself.
+3) i will stick to placing body declarations and return expressions in brackets in a lambdas-expression body but if i’m sure the interfaces method is not returning anything and i have a single expression i will not place it into a bracket. So as not to confuse myself
+
+## 15.7 Case Study: Loan Calculator
+[File](source-files/Chapter-15/LoanCalculator.java)
+## 15.8 and 15.9 Mouse Events and KeyEvents
+Consult the book. I’m tired
+## 15.10 Listeners for Observable Objects

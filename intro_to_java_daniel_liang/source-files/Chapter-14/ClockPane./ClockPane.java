@@ -12,17 +12,9 @@ public class ClockPane extends Pane {
   private int minute;
   private int second;
 
-  public int getHour() {
-    return hour;
-  }
-
-  public int getMinute() {
-    return minute;
-  }
-
-  public int getSecond() {
-    return second;
-  }
+  public int getHour() { return hour; }
+  public int getMinute() { return minute; }
+  public int getSecond() { return second; }
 
   public ClockPane() {
     Calendar cal = new GregorianCalendar();
@@ -55,18 +47,16 @@ public class ClockPane extends Pane {
     double sEndY = centery - slen * Math.cos((second * 2 * Math.PI) / 60);
     Line sLine = new Line(centerx, centery, sEndX, sEndY);
     sLine.setStroke(Color.RED);
+
     // paint mins
     double mEndX = centerx + mlen * Math.sin((minute * 2 * Math.PI) / 60);
     double mEndY = centery - mlen * Math.cos((minute * 2 * Math.PI) / 60);
     Line mLine = new Line(centerx, centery, mEndX, mEndY);
     mLine.setStroke(Color.GREEN);
+
     // paint hour
-    double hEndX =
-      centerx +
-      hlen * Math.sin((((hour % 12) + minute / 60) * 2 * Math.PI) / 12);
-    double hEndY =
-      centery -
-      hlen * Math.cos((((hour % 12) + minute / 60) * 2 * Math.PI) / 12);
+    double hEndX = centerx + hlen * Math.sin((((hour % 12) + minute / 60) * 2 * Math.PI) / 12);
+    double hEndY = centery - hlen * Math.cos((((hour % 12) + minute / 60) * 2 * Math.PI) / 12);
     Line hLine = new Line(centerx, centery, hEndX, hEndY);
     hLine.setStroke(Color.BLUE);
 

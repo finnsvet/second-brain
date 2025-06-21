@@ -10,8 +10,7 @@ public class ShowClock extends Application {
   @Override
   public void start(Stage primaryStage) {
     ClockPane clock = new ClockPane();
-    String timeString =
-      clock.getHour() + ":" + clock.getMinute() + ":" + clock.getSecond();
+    String timeString = clock.getHour() + ":" + clock.getMinute() + ":" + clock.getSecond();
     Label label = new Label(timeString);
 
     BorderPane pane = new BorderPane();
