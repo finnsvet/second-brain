@@ -152,6 +152,15 @@ Things i noticed:
 
 ## 15.7 Case Study: Loan Calculator
 [File](source-files/Chapter-15/LoanCalculator.java)
-## 15.8 and 15.9 Mouse Events and KeyEvents
+## 15.8 and 15.9 Mouse Events and Key Events
 Consult the book. I’m tired
 ## 15.10 Listeners for Observable Objects
+You can add a listener to process a value change in an observable object.
+
+Things to note:
+1) An instance of `Observable` is known as an *observable object*, which contains the `addListener(InvalidationListener listener)` method for adding a listener.
+2) The listener class must implement the functional interface `InvalidationListener` to override the `invalidated(Observable o)`method, which handles value change
+3) Once a value is changed in the `Observable` object, the listener is notified by invoking its `Invalidated(Observable o)` method.
+4) Every binding method is an instance observable o
+
+A demo like listener program i coded, implementing the logic above can be found [here](source-files/Chapter-15/test/TestObservable.java)
