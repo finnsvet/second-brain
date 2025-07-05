@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d6eb13ab0e9cfa60",
+        "id": "025aba56b2a766e0",
         "type": "tabs",
         "children": [
           {
-            "id": "5ed6c51b90446523",
+            "id": "74732087a7bdf333",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "intro_to_java_daniel_liang/Chapter 19. Generics.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Chapter 19. Generics"
+              "title": "New tab"
             }
           }
         ]
@@ -167,21 +163,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ed6c51b90446523",
+  "active": "74732087a7bdf333",
   "lastOpenFiles": [
-    "intro_to_java_daniel_liang/Chapter 18 Recursion.md",
+    "Books/Introduction to Java Programming and Data Structures, Comprehensive Version, Global Edition (Y. Daniel Liang) (Z-Library).pdf",
+    "intro_to_java_daniel_liang/Chapter 20->30 (Refresher) Data Structures in Java.md",
+    "2025 GOALS.md",
     "intro_to_java_daniel_liang/Chapter 19. Generics.md",
+    "intro_to_java_daniel_liang/source-files/Chapter-19/GenericMatrix.java",
+    "intro_to_java_daniel_liang/Untitled.canvas",
+    "intro_to_java_daniel_liang/source-files/Chapter-19/GenericSort.class",
+    "intro_to_java_daniel_liang/source-files/Chapter-19/GenericSort.java",
+    "intro_to_java_daniel_liang/source-files/Chapter-19/Array",
+    "intro_to_java_daniel_liang/source-files/Chapter-19",
+    "intro_to_java_daniel_liang/Chapter 18 Recursion.md",
     "intro_to_java_daniel_liang/source-files/imgs/tailrecursion.png",
     "intro_to_java_daniel_liang/source-files/Chapter-18/SierpinskiTriangle.class",
     "intro_to_java_daniel_liang/source-files/Chapter-18/SierpinskiTriangle$SierpinskiTrianglePane.class",
     "intro_to_java_daniel_liang/source-files/Chapter-18/jfx",
     "intro_to_java_daniel_liang/source-files/Chapter-18/SierpinskiTriangle.java",
     "DirectorySize.java",
-    "DirectorySize.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-18/DirectorySize.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-18/DirectorySize.java",
-    "intro_to_java_daniel_liang/source-files/Chapter-18/Factorial.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-18/Factorial.java",
     "intro_to_java_daniel_liang/Chapter 17 Binary I-O.md",
     "intro_to_java_daniel_liang/source-files/imgs/objectStream.png",
     "intro_to_java_daniel_liang/source-files/imgs/bufferclasses.png",
@@ -211,9 +211,6 @@
     "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/01. Notes on Java.md",
     "intro_to_java_daniel_liang/Chapter 9. Object and Classes.md",
     "intro_to_java_daniel_liang/Chapter 8. Multidimensional Arrays.md",
-    "intro_to_java_daniel_liang/Chapter 7. Single Dimensional Arrays.md",
-    "intro_to_java_daniel_liang/Chapter 6. Methods.md",
-    "intro_to_java_daniel_liang/Chapter 5. Loops.md",
-    "intro_to_java_daniel_liang/Chapter 4. Mathematical Functions, Characters and Strings..md"
+    "intro_to_java_daniel_liang/Chapter 7. Single Dimensional Arrays.md"
   ]
 }
