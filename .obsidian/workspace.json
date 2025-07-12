@@ -11,10 +11,14 @@
             "id": "74732087a7bdf333",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "tour_of_cpp_bjarne/03.  Modularity.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "03.  Modularity"
             }
           }
         ]
@@ -163,25 +167,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74732087a7bdf333",
+  "active": "327feb7349607322",
   "lastOpenFiles": [
+    "tour_of_cpp_bjarne/02. User-Defined Types.md",
+    "tour_of_cpp_bjarne/01. The Basics.md",
+    "tour_of_cpp_bjarne/03.  Modularity.md",
+    "tour_of_cpp_bjarne/src/chapter-02/read_sum_vectors",
+    "tour_of_cpp_bjarne/src/chapter-02/a.out",
+    "tour_of_cpp_bjarne/src/chapter-02/read_sum_vectors.cpp",
+    "tour_of_cpp_bjarne/src/chapter-02",
+    "tour_of_cpp_bjarne/src/read_sum_vectors.cpp",
+    "tour_of_cpp_bjarne/src/imgs/classconstruction.png",
+    "tour_of_cpp_bjarne/src/imgs",
+    "tour_of_cpp_bjarne/src",
+    "intro_to_java_daniel_liang/Chapter 15 Event-Driven Programming and Animations.md",
+    "tour_of_cpp_bjarne/previous/Chapter 01.md",
+    "Time Table.md",
+    "tour_of_cpp_bjarne/previous",
+    "intro_to_java_daniel_liang/Chapter 19. Generics.md",
     "Books/Introduction to Java Programming and Data Structures, Comprehensive Version, Global Edition (Y. Daniel Liang) (Z-Library).pdf",
     "intro_to_java_daniel_liang/Chapter 20->30 (Refresher) Data Structures in Java.md",
     "2025 GOALS.md",
-    "intro_to_java_daniel_liang/Chapter 19. Generics.md",
     "intro_to_java_daniel_liang/source-files/Chapter-19/GenericMatrix.java",
     "intro_to_java_daniel_liang/Untitled.canvas",
-    "intro_to_java_daniel_liang/source-files/Chapter-19/GenericSort.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-19/GenericSort.java",
-    "intro_to_java_daniel_liang/source-files/Chapter-19/Array",
-    "intro_to_java_daniel_liang/source-files/Chapter-19",
     "intro_to_java_daniel_liang/Chapter 18 Recursion.md",
     "intro_to_java_daniel_liang/source-files/imgs/tailrecursion.png",
-    "intro_to_java_daniel_liang/source-files/Chapter-18/SierpinskiTriangle.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-18/SierpinskiTriangle$SierpinskiTrianglePane.class",
-    "intro_to_java_daniel_liang/source-files/Chapter-18/jfx",
-    "intro_to_java_daniel_liang/source-files/Chapter-18/SierpinskiTriangle.java",
-    "DirectorySize.java",
     "intro_to_java_daniel_liang/Chapter 17 Binary I-O.md",
     "intro_to_java_daniel_liang/source-files/imgs/objectStream.png",
     "intro_to_java_daniel_liang/source-files/imgs/bufferclasses.png",
@@ -191,12 +201,10 @@
     "intro_to_java_daniel_liang/source-files/imgs/dataInputStream.png",
     "intro_to_java_daniel_liang/source-files/imgs/filestreamuml.png",
     "intro_to_java_daniel_liang/source-files/imgs/inputoutputstreamuml.png",
-    "intro_to_java_daniel_liang/source-files/imgs/inoutstream.png",
     "intro_to_java_daniel_liang/Chapter 20. Lists, Stacks, Queues, and Priority Queues.md",
     "intro_to_java_daniel_liang/Chapter 16. Java UI Control and multimedia.md",
     "intro_to_java_daniel_liang/Chapter 14. JavaFx Basics.md",
     "intro_to_java_daniel_liang/Chapter 1.  Introduction to Computers, Programs and java..md",
-    "intro_to_java_daniel_liang/Chapter 15 Event-Driven Programming and Animations.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/pako.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/jszip.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/jqueryUI.md",
@@ -207,10 +215,6 @@
     "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/05. Calculating with numbers.md",
     "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/04. Variables.md",
     "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/03. Reading Input.md",
-    "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/02. Printing.md",
-    "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/01. Notes on Java.md",
-    "intro_to_java_daniel_liang/Chapter 9. Object and Classes.md",
-    "intro_to_java_daniel_liang/Chapter 8. Multidimensional Arrays.md",
-    "intro_to_java_daniel_liang/Chapter 7. Single Dimensional Arrays.md"
+    "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/02. Printing.md"
   ]
 }
