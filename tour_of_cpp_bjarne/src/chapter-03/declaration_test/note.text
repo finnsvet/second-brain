@@ -1,0 +1,8 @@
+In c++; all a function needs to run in a file (as long as its been compiled), no matter where called, is it's declaration.
+
+An example:
+  if a print function was declared in print.cpp, and we need it in main.cpp
+  all we need to to write the declaration of the print function in print.cpp in main.cpp
+  and call it. (As long as print.cpp has been compiled)
+
+  This folder implements this example.
