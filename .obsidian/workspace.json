@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tour_of_cpp_bjarne/05. Classes.md",
+                "file": "tour_of_cpp_bjarne/07.  Templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05. Classes"
+              "title": "07.  Templates"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "70a8f35661ddeb08",
@@ -169,8 +170,13 @@
   },
   "active": "74732087a7bdf333",
   "lastOpenFiles": [
-    "tour_of_cpp_bjarne/04. Error Handling.md",
+    "tour_of_cpp_bjarne/src/imgs/typedeductionsurprises.png",
+    "tour_of_cpp_bjarne/06. Essential Operations.md",
+    "tour_of_cpp_bjarne/07.  Templates.md",
+    "tour_of_cpp_bjarne/src/imgs/overloaded-op.png",
     "tour_of_cpp_bjarne/05. Classes.md",
+    "tour_of_cpp_bjarne/src/imgs/classhierarchy.png",
+    "tour_of_cpp_bjarne/04. Error Handling.md",
     "tour_of_cpp_bjarne/03.  Modularity.md",
     "tour_of_cpp_bjarne/02. User-Defined Types.md",
     "tour_of_cpp_bjarne/src/chapter-03/declaration_test/note.text",
@@ -201,8 +207,6 @@
     "intro_to_java_daniel_liang/source-files/imgs/bufferclasses.png",
     "intro_to_java_daniel_liang/source-files/imgs/bufferio.png",
     "intro_to_java_daniel_liang/source-files/imgs/pipelinedata.png",
-    "intro_to_java_daniel_liang/source-files/imgs/dataoutput.png",
-    "intro_to_java_daniel_liang/source-files/imgs/dataInputStream.png",
     "intro_to_java_daniel_liang/Chapter 20. Lists, Stacks, Queues, and Priority Queues.md",
     "intro_to_java_daniel_liang/Chapter 16. Java UI Control and multimedia.md",
     "intro_to_java_daniel_liang/Chapter 14. JavaFx Basics.md",
@@ -212,9 +216,6 @@
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/jqueryUI.md",
     "intro_to_java_daniel_liang/source-files/Chapter-01/legal/jquery.md",
     "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 2/0.2 Repeating functionality (Loops).md",
-    "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 2/0.1 Recurring problems and patterns to solve them.md",
-    "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/06. Conditional statements and conditional operation.md",
-    "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/05. Calculating with numbers.md",
-    "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/04. Variables.md"
+    "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 2/0.1 Recurring problems and patterns to solve them.md"
   ]
 }
