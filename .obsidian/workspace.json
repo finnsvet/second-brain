@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tour_of_cpp_bjarne/07.  Templates.md",
+                "file": "tour_of_cpp_bjarne/08. Concepts and Generic Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07.  Templates"
+              "title": "08. Concepts and Generic Programming"
             }
           }
         ]
@@ -170,9 +170,10 @@
   },
   "active": "74732087a7bdf333",
   "lastOpenFiles": [
+    "tour_of_cpp_bjarne/07.  Templates.md",
+    "tour_of_cpp_bjarne/08. Concepts and Generic Programming.md",
     "tour_of_cpp_bjarne/src/imgs/typedeductionsurprises.png",
     "tour_of_cpp_bjarne/06. Essential Operations.md",
-    "tour_of_cpp_bjarne/07.  Templates.md",
     "tour_of_cpp_bjarne/src/imgs/overloaded-op.png",
     "tour_of_cpp_bjarne/05. Classes.md",
     "tour_of_cpp_bjarne/src/imgs/classhierarchy.png",
@@ -206,7 +207,6 @@
     "intro_to_java_daniel_liang/source-files/imgs/objectStream.png",
     "intro_to_java_daniel_liang/source-files/imgs/bufferclasses.png",
     "intro_to_java_daniel_liang/source-files/imgs/bufferio.png",
-    "intro_to_java_daniel_liang/source-files/imgs/pipelinedata.png",
     "intro_to_java_daniel_liang/Chapter 20. Lists, Stacks, Queues, and Priority Queues.md",
     "intro_to_java_daniel_liang/Chapter 16. Java UI Control and multimedia.md",
     "intro_to_java_daniel_liang/Chapter 14. JavaFx Basics.md",
