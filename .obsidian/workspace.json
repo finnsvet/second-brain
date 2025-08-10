@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tour_of_cpp_bjarne/16. Utilities.md",
+                "file": "tour_of_cpp_bjarne/18. Concurrency.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16. Utilities"
+              "title": "18. Concurrency"
             }
           }
         ]
@@ -170,8 +170,20 @@
   },
   "active": "74732087a7bdf333",
   "lastOpenFiles": [
-    "tour_of_cpp_bjarne/05. Classes.md",
+    "tour_of_cpp_bjarne/17. Numerics.md",
+    "tour_of_cpp_bjarne/18. Concurrency.md",
+    "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/03. Reading Input.md",
+    "tour_of_cpp_bjarne/10. Strings and Regular Expressions.md",
+    "tour_of_cpp_bjarne/src/chapter-17/random_histogram",
+    "tour_of_cpp_bjarne/src/chapter-17/main.cpp",
+    "tour_of_cpp_bjarne/src/chapter-17/rando_int.cpp",
+    "tour_of_cpp_bjarne/src/chapter-17/rando.h",
+    "tour_of_cpp_bjarne/src/chapter-17/a.out",
+    "tour_of_cpp_bjarne/src/chapter-17/rando.cpp",
+    "tour_of_cpp_bjarne/src/chapter-17",
     "tour_of_cpp_bjarne/16. Utilities.md",
+    "tour_of_cpp_bjarne/src/imgs/type-gens.png",
+    "tour_of_cpp_bjarne/05. Classes.md",
     "tour_of_cpp_bjarne/15. Pointers and Containers.md",
     "tour_of_cpp_bjarne/14. Ranges.md",
     "Books/Computer Architecture A Quantitative Approach (John L. Hennessy, David A. Patterson) (Z-Library).pdf",
@@ -184,27 +196,18 @@
     "tour_of_cpp_bjarne/11. Input and Output.md",
     "tour_of_cpp_bjarne/src/imgs/file-system.png",
     "tour_of_cpp_bjarne/src/imgs/path-class.png",
-    "tour_of_cpp_bjarne/10. Strings and Regular Expressions.md",
     "tour_of_cpp_bjarne/src/imgs/shorthand.png",
     "tour_of_cpp_bjarne/src/imgs/characterclass.png",
     "tour_of_cpp_bjarne/src/imgs/longandshortstring.png",
     "tour_of_cpp_bjarne/09. Library Overview.md",
     "tour_of_cpp_bjarne/08. Concepts and Generic Programming.md",
     "tour_of_cpp_bjarne/07.  Templates.md",
-    "tour_of_cpp_bjarne/src/imgs/typedeductionsurprises.png",
     "tour_of_cpp_bjarne/06. Essential Operations.md",
     "tour_of_cpp_bjarne/04. Error Handling.md",
     "tour_of_cpp_bjarne/03.  Modularity.md",
     "tour_of_cpp_bjarne/02. User-Defined Types.md",
     "tour_of_cpp_bjarne/src/chapter-03/declaration_test/note.text",
     "tour_of_cpp_bjarne/src/chapter-03/declaration_test/printer",
-    "tour_of_cpp_bjarne/src/chapter-03/declaration_test/print.cpp",
-    "tour_of_cpp_bjarne/src/chapter-03/declaration_test/main.cpp",
-    "tour_of_cpp_bjarne/src/chapter-03/declaration_test",
-    "tour_of_cpp_bjarne/src/chapter-03/printer",
-    "tour_of_cpp_bjarne/src/chapter-03/main.cpp",
-    "tour_of_cpp_bjarne/src/chapter-03/print.cpp",
-    "tour_of_cpp_bjarne/src/chapter-03",
     "tour_of_cpp_bjarne/01. The Basics.md",
     "intro_to_java_daniel_liang/Chapter 15 Event-Driven Programming and Animations.md",
     "tour_of_cpp_bjarne/previous/Chapter 01.md",
@@ -213,9 +216,6 @@
     "intro_to_java_daniel_liang/Chapter 20->30 (Refresher) Data Structures in Java.md",
     "2025 GOALS.md",
     "intro_to_java_daniel_liang/Untitled.canvas",
-    "intro_to_java_daniel_liang/Chapter 18 Recursion.md",
-    "intro_to_java_daniel_liang/Chapter 17 Binary I-O.md",
-    "intro_to_java_daniel_liang/Chapter 20. Lists, Stacks, Queues, and Priority Queues.md",
-    "intro_to_java_daniel_liang/Chapter 16. Java UI Control and multimedia.md"
+    "intro_to_java_daniel_liang/Chapter 18 Recursion.md"
   ]
 }
