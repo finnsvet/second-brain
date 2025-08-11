@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "025aba56b2a766e0",
+        "id": "51f2e57fdae1d9b1",
         "type": "tabs",
         "children": [
           {
-            "id": "74732087a7bdf333",
+            "id": "fc4304539e150680",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tour_of_cpp_bjarne/18. Concurrency.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "18. Concurrency"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "70a8f35661ddeb08",
@@ -168,10 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74732087a7bdf333",
+  "active": "fc4304539e150680",
   "lastOpenFiles": [
-    "tour_of_cpp_bjarne/17. Numerics.md",
+    "tour_of_cpp_bjarne/src/imgs/type-gens.png",
+    "tour_of_cpp_bjarne/END.md",
     "tour_of_cpp_bjarne/18. Concurrency.md",
+    "tour_of_cpp_bjarne/17. Numerics.md",
     "intro_to_java_daniel_liang/MOOC Java Course Notes/Part 1/03. Reading Input.md",
     "tour_of_cpp_bjarne/10. Strings and Regular Expressions.md",
     "tour_of_cpp_bjarne/src/chapter-17/random_histogram",
@@ -182,7 +179,6 @@
     "tour_of_cpp_bjarne/src/chapter-17/rando.cpp",
     "tour_of_cpp_bjarne/src/chapter-17",
     "tour_of_cpp_bjarne/16. Utilities.md",
-    "tour_of_cpp_bjarne/src/imgs/type-gens.png",
     "tour_of_cpp_bjarne/05. Classes.md",
     "tour_of_cpp_bjarne/15. Pointers and Containers.md",
     "tour_of_cpp_bjarne/14. Ranges.md",
@@ -214,8 +210,6 @@
     "Time Table.md",
     "intro_to_java_daniel_liang/Chapter 19. Generics.md",
     "intro_to_java_daniel_liang/Chapter 20->30 (Refresher) Data Structures in Java.md",
-    "2025 GOALS.md",
-    "intro_to_java_daniel_liang/Untitled.canvas",
-    "intro_to_java_daniel_liang/Chapter 18 Recursion.md"
+    "intro_to_java_daniel_liang/Untitled.canvas"
   ]
 }
