@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 8 Contrasting Ideas.md",
+                "file": "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/2 Descriptive passages.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 8 Contrasting Ideas"
+              "title": "2 Descriptive passages"
             }
           },
           {
@@ -184,14 +184,17 @@
   },
   "active": "9cbaca0a1bd88c70",
   "lastOpenFiles": [
-    "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 7 Following a lecture of talk.md",
+    "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/1 Reading Strategies.md",
+    "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/2 Descriptive passages.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 8 Contrasting Ideas.md",
-    "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 6 Attitude and opinion.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 1 Understanding context.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 2 Following a conversation.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 3 Recognizing paraphrase.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 4 Places and Directions.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 5 Listening for actions and processes.md",
+    "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 6 Attitude and opinion.md",
+    "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 7 Following a lecture of talk.md",
+    "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills",
     "IELTS-PREP/src/ielts 1.png",
     "IELTS-PREP/src",
     "concurrency_in_action/END.md",
@@ -219,13 +222,10 @@
     "Untitled 1.md",
     "Untitled.md",
     "concurrency_in_action/6.0 Designing lock-based concurrent data structures.md",
-    "concurrency_in_action/8.3 Designing Data Structures for Multi-Threaded Performance.md",
-    "concurrency_in_action/8.0 Designing Concurrent Code.md",
     "concurrency_in_action/src/test_top.cpp",
     "concurrency_in_action/src/linked_list_queue.cpp",
     "concurrency_in_action/src/spinlock.cpp",
     "concurrency_in_action/src/synchronizes-with",
-    "concurrency_in_action/src/epoch.cpp",
     "Pasted image 20250909184058.png",
     "networking/Computer Networking James F Kurose, Keith W. Ross/imgs/General HTTP request.png",
     "networking/Computer Networking James F Kurose, Keith W. Ross/imgs/Internet-Stack.png",
