@@ -13,24 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/2 Descriptive passages.md",
+                "file": "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/4 Locating and matching information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Descriptive passages"
-            }
-          },
-          {
-            "id": "1375beb94afd026b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "title": "4 Locating and matching information"
             }
           }
         ]
@@ -184,8 +172,11 @@
   },
   "active": "9cbaca0a1bd88c70",
   "lastOpenFiles": [
-    "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/1 Reading Strategies.md",
+    "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/3 Understanding the main ideas.md",
+    "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/5 Discursive passages.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/2 Descriptive passages.md",
+    "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/1 Reading Strategies.md",
+    "IELTS-PREP/Official Cambridge IELTS Guide/Reading Skills/4 Locating and matching information.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 8 Contrasting Ideas.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 1 Understanding context.md",
     "IELTS-PREP/Official Cambridge IELTS Guide/Listening Skills/Chapter 2 Following a conversation.md",
@@ -219,9 +210,6 @@
     "concurrency_in_action/8.4.2 Scalability and Amdahl's law.md",
     "concurrency_in_action/9.0 Advanced thread management.md",
     "concurrency_in_action/8.5 Designing concurrent code in practice.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "concurrency_in_action/6.0 Designing lock-based concurrent data structures.md",
     "concurrency_in_action/src/test_top.cpp",
     "concurrency_in_action/src/linked_list_queue.cpp",
     "concurrency_in_action/src/spinlock.cpp",
